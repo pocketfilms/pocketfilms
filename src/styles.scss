@@ -1,0 +1,116 @@
+
+html, body, p{
+  color: #484848;
+}
+
+.apartment{
+  color: #a72da3;
+}
+.condo{
+  color: #d68000;
+}
+.house{
+  color: #bf1818;
+}
+  .page-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+.clickable {
+  cursor: pointer;
+}
+
+  .btn-ghost{
+    background-color: transparent !important;
+    color: #F44336 !important;
+    border: 1px solid #F44336 !important;
+    font-size: 12px !important;
+    &:hover, &:focus{
+      background-color: transparent !important;
+      color: #F44336 !important;
+      border: 1px solid #F44336 !important;
+
+    }
+  }
+
+
+.btn-bwm {
+  background-color: #F44336;
+  border-color: #F44336;
+  color: white;
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+  padding: 5px 20px;
+  font-size: 20px;
+
+  &:hover, &:focus, &:active {
+    border-color: #F44336 !important;
+    background-color: #F44336 !important;
+  }
+}
+.bwm-form {
+  color: #484848;
+
+button{
+  background-color:  #F44336;
+}
+  form {
+    margin-bottom: 10px;
+  }
+
+  .alert {
+    p {
+      margin: 0;
+    }
+  }
+
+  h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .image-container {
+    position: relative;
+
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+
+  label {
+    font-size: 12px;
+  }
+
+  .form-text {
+    font-size: 13px;
+  }
+
+  .catchphrase {
+    text-align: center;
+    font-size: 42px;
+    position: absolute;
+    color: #f1f1f1;
+    padding: 40px;
+    background-color: rgba(0,0,0, 0.5);
+    margin-top: 50px;
+    letter-spacing: 1px;
+  }
+
+}
+.inline{
+  display: inline-block;
+}
+
+.editable-component{
+  .btn{
+    &.btn-editable{
+      margin-left: 5px;
+      color: white;
+      font-size: 12px;
+    }
+  }
+}
